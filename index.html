@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gaurav Rastogi | Portfolio</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #020617;
+  position: sticky;
+  top: 0;
+}
+
+nav h2 {
+  color: #38bdf8;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #38bdf8;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* SECTION */
+.section {
+  padding: 60px 10%;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+/* CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #334155;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #22c55e;
+  color: black;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  margin-top: 40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>Gaurav</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Gaurav Rastogi</h1>
+  <p>B.Tech Student | Future Software Engineer</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    B.Tech student at Presidency University passionate about software development,
+    problem solving, and building impactful tech projects.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="cards">
+    <div class="card">Python (Beginner)</div>
+    <div class="card">Problem Solving</div>
+    <div class="card">Git & GitHub</div>
+    <div class="card">Programming Fundamentals</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Python Mini Projects</h3>
+      <p>Basic programs to strengthen logic and coding skills.</p>
+    </div>
+
+    <div class="card">
+      <h3>Automation Scripts</h3>
+      <p>Simple scripts to automate tasks and improve efficiency.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates" class="section">
+  <h2>Certificates</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>TRAE Hackathon</h3>
+      <a href="https://drive.google.com/file/d/1266wDKyQfZP0__Z4f1QNT2vsBZzAZUAw/view?usp=sharing" class="btn">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>Pitchathon - Presidency University</h3>
+      <a href="https://drive.google.com/drive/folders/10zAHuIZkYuF-O8v3QrR54ECbXGq6qnj7?usp=sharing" class="btn">View Certificate & Photos</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Email: gauravrastogi@email.com</p>
+  <p>
+    <a href="https://github.com/yourusername" class="btn">GitHub</a>
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Gaurav Rastogi</p>
+</footer>
+
+</body>
+</html>
